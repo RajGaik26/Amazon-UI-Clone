@@ -90,6 +90,49 @@
     border: 2px solid orange;
 }
 
+/* box-lang */
+
+.nav-lang {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-text {
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.lang-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.lang-text {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.lang-content a,
+.lang-content .selected {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lang-content a:hover {
+    background-color: #555;
+}
+
+.nav-lang:hover .lang-content {
+    display: block;
+}
+
 /* box4 */
 
 span {
