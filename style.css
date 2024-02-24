@@ -204,8 +204,13 @@ span {
     margin-bottom: 25px;
 }
 
-.her-msg a {
+.hero-msg a {
     color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    text-decoration: underline;
 }
 
 /* shop section  */
