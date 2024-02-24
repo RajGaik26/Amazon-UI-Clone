@@ -207,3 +207,18 @@ span {
 .her-msg a {
     color: #007185;
 }
+
+/* shop section  */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #92B592;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
